@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "DAB",
+  "description": "This extension creates a domain agnostic bookmarklet, useful for developers working across different environments",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_popup": "dab.html",
+    "default_title": "Dab on 'em"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
